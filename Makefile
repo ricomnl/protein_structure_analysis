@@ -11,3 +11,4 @@ jupyter:
 
 docs: .venv
 	poetry run sphinx-build -b html docs/ docs/_build
+	cp -a docs/_build/. docs
